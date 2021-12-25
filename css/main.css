@@ -1,0 +1,166 @@
+
+@font-face {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+         url('../fonts/barlow-v5-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/barlow-v5-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  
+  @font-face {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 700;
+    src: local(''),
+         url('../fonts/barlow-v5-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/barlow-v5-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+
+/* fraunces-regular - latin */
+@font-face {
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+         url('../fonts/fraunces-v10-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/fraunces-v10-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* fraunces-900 - latin */
+@font-face {
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    src: local(''),
+         url('../fonts/fraunces-v10-latin-900.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/fraunces-v10-latin-900.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+
+*{box-sizing: border-box;}
+
+img{vertical-align: middle;}
+  
+.container{
+width: 1320px;
+padding-right: 20px;
+padding-left: 20px;
+margin: 0 auto;}
+  
+.visually-hidden {
+clip: rect(0 0 0 0);
+clip-path: inset(50%);
+height: 1px;
+overflow: hidden;
+position: absolute;
+white-space: nowrap;
+width: 1px;
+}
+
+body{
+margin: 0;
+padding: 0;
+font-family: 'Barlow', "arial", sans-serif ;
+font-family: 'Fraunces', "Times New Roman", serif;
+}
+
+.header__top{
+display:flex;
+align-items: center;
+margin-top: 44px;
+margin-bottom: 44px;
+}
+  
+.header__logo{
+margin-right: auto;
+}
+
+.nav__list{
+display:flex;
+list-style: none;
+padding: 0;
+margin: 0;
+}
+
+.nav__item{
+margin-left: 33px;
+font-family: "Barlow";
+font-weight: bold;
+font-size: 12px;
+line-height: 15px;
+}
+            
+.nav__link{
+text-decoration: none;
+color:#83888F;
+}    
+
+.nav__link:hover{
+color:#333D4B;
+}
+
+    /* =====================main=============== */
+            
+
+.hero{
+margin-bottom: 144px;
+}
+
+.hero__img{
+height: 600px;
+background-image:url(../img/Bitmap.svg);
+background-size: cover;
+border-radius: 20px;
+background-repeat: no-repeat
+}
+    
+.hero__box{
+width: 493px;
+padding-top: 117px;
+padding-bottom: 116px;
+padding-left: 85px;
+}
+        
+.hero__title{
+color: #FEFCF7;
+width: 493px;
+height: 145px;
+font-family: "Fraunces";
+font-style: normal;
+font-weight: 900;
+font-size: 72px;
+line-height: 72px;
+margin-top: 0;
+margin-bottom: 32px;
+}
+ 
+.hero__text{
+color: #FEFCF7;
+font-family: "Barlow";
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+opacity: 0.8;
+margin-top: 0;
+margin-bottom: 56px;
+}
+
+.link__wrap{
+width:217px ;
+height:56px ;
+background-color: #0E8784;
+border-radius: 6px;
+padding: 15px 31px;
+}
+
+.link__wrap:hover{
+background-color: #66D2CF;
+}
+
+.link__buttom{
+color: #FEFCF7;
+text-decoration: none;
+font-family: "Fraunces";
+font-weight: 900;
+font-size: 18px;
+line-height: 25px;}
+        
