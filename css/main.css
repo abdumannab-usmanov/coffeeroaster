@@ -74,14 +74,14 @@ margin-bottom: 44px;
 margin-right: auto;
 }
 
-.nav__list{
+.header__list{
 display:flex;
 list-style: none;
 padding: 0;
 margin: 0;
 }
 
-.nav__item{
+.header__item{
 margin-left: 33px;
 font-family: "Barlow";
 font-weight: bold;
@@ -89,12 +89,12 @@ font-size: 12px;
 line-height: 15px;
 }
             
-.nav__link{
+.header__link{
 text-decoration: none;
 color:#83888F;
 }    
 
-.nav__link:hover{
+.header__link:hover{
 color:#333D4B;
 }
 
@@ -105,19 +105,24 @@ color:#333D4B;
 margin-bottom: 144px;
 }
 
-.hero__img{
+.hero__content{
 height: 600px;
 background-image:url(../img/Bitmap.svg);
 background-size: cover;
 border-radius: 10px;
-background-repeat: no-repeat
+background-repeat: no-repeat;
+padding-top: 117px;
+padding-bottom: 116px;
+padding-left: 85px;
 }
     
 .hero__box{
 width: 493px;
-padding-top: 117px;
-padding-bottom: 116px;
-padding-left: 85px;
+}
+
+
+.hero__span{
+  width: 445px;
 }
         
 .hero__title{
@@ -144,7 +149,7 @@ margin-top: 0;
 margin-bottom: 56px;
 }
 
-.link__wrap{
+.hero__wrap{
 width:217px ;
 height:56px ;
 background-color: #0E8784;
@@ -152,11 +157,11 @@ border-radius: 6px;
 padding: 15px 31px;
 }
 
-.link__wrap:hover{
+.hero__wrap:hover{
 background-color: #66D2CF;
 }
 
-.link__buttom{
+.hero__buttom{
 color: #FEFCF7;
 text-decoration: none;
 font-family: "Fraunces";
