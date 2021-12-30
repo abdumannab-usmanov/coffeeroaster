@@ -53,7 +53,7 @@ h1,h2,h3,h4,h5,p{
   margin: 0;
 }
 
-ul,li{
+ul,ol,li{
   margin: 0;
   padding: 0;
   list-style: none;
@@ -175,7 +175,7 @@ padding: 15px 31px;
 background-color: #66D2CF;
 }
 
-.hero__buttom{
+.hero__button{
 color: #FEFCF7;
 text-decoration: none;
 font-family: "Fraunces";
@@ -188,11 +188,11 @@ line-height: 25px;}
 
 .collection{
   padding-top: 124px;
-  padding-bottom: 188px;
+  margin-bottom: 188px;
   background-image: url(../img/our-collection.svg);
   background-repeat: no-repeat;
   background-size: 1200px 196px;
-  background-position: calc(50%) calc(100% - 516px);
+  background-position: calc(50%) calc(100% -  337px);
 
 }
 
@@ -241,43 +241,42 @@ line-height: 25px;}
 /* ===================section3============ */
 
 .quality{
-
+padding-bottom: 200px;
+background-image: url(../img/Bitmap2.png);
+background-repeat: no-repeat;
+background-size: 1280px 577px;
+background-position: calc(50%) calc(50% - 169px);
 }
 
 .quality__box{
-  Width:1280px;
-  Height:577px ;
+  padding-top: 112px;
   
 }
 
-
-
 .quality__inner{
   Width:540px;
-  Height:80px;
   text-align: center;
   margin: 0 auto;
+  
  
 }
 
 .quality__title{
-  Font-family: "Fraunces";
+  font-family: "Fraunces";
   font-weight: 900;
-  Font-style: normal;
-  Font-size: 40px;
+  color: #FEFCF7;
+  font-size: 40px;
   margin-bottom: 32px;
   
 }
 
-.abdu{
-  margin-bottom: 86px;
-}
-
 .quality__text{
-  Font-family: "Barlow";
+  font-family: "Barlow";
  font-weight: 400;
-  Font-size: 16px;
-  Line-height: 26px;
+ color: #FEFCF7;
+ Opacity: 80%;
+  font-size: 16px;
+  line-height: 26px;
   
  
 }
@@ -286,6 +285,8 @@ line-height: 25px;}
   display: flex;
   justify-content: space-evenly;
   margin-top: 86px;
+ 
+ 
 }
 
 .quality__item{
@@ -295,16 +296,26 @@ line-height: 25px;}
   padding: 72px 48px 48px;
   text-align: center;
   border-radius: 8px;
+  
+  
+
+ 
 }
 
 .quality__img{
   margin-bottom: 56px;
 }
 
+.quality__img--truck{
+  width: 72px;
+  height: 52px;
+  margin-bottom: 80px;
+}
+
 .quality__reason{
-  Font-family:"Fraunces";
+  font-family:"Fraunces";
   font-weight: 900;
-  Font-size: 24px;
+  font-size: 24px;
   margin-bottom: 24px;
 
 }
@@ -315,9 +326,154 @@ line-height: 25px;}
 }
 
 .quality__article{
-  Font-family: "Barlow";
-Font-style: 400;
-Font-size: 16px;
-Line-height: 26px;
+  font-family: "Barlow";
+font-style: 400;
+font-size: 16px;
+line-height: 26px;
 color: #FEFCF7;
 }
+
+/* ====================section================ */
+
+.deliver{
+padding-bottom: 200px;
+}
+
+.deliver__title{
+  color: #83888F;
+  font-family: "Fraunces";
+  font-size: 24px;
+  font-weight:900;  
+  margin-bottom: 80px;
+}
+
+.deliver__content{
+  position: relative;
+  z-index: 1;
+  background-color: #FDD6BA;
+  width:760px ;
+  height: 1px;
+  margin-bottom: 48px;
+}
+
+.deliver__circle{display: flex;
+  position: absolute;
+z-index: 2;
+  top: -15px;
+  right: 0px;
+  left: 0;
+  bottom: 0;
+  z-index: 2;
+  width: 31px;
+  height: 31px;
+  border: 2px solid #0E8784;
+  background-color: #FEFCF7;
+  border-radius:50px; 
+  padding: 10px; 
+}
+
+.deliver__circle--middle{
+ margin: 0 auto;
+}
+
+.deliver__circle--right{
+  top: -15px;
+  left: 96%;
+}
+
+.deliver__list{
+  display: flex;
+  margin-bottom: 44px;
+}
+
+.deliver__item{
+margin-right: 143px;
+}
+
+.deliver__img{
+  margin-bottom: 42px;
+}
+
+.deliver__wrap{
+  width: 223px;
+  height: 155px;
+}
+
+.deliver__wrap--left{
+  width: 208px;
+}
+
+.deliver__wrap--right{
+  width: 203px;
+}
+
+.deliver__text{
+  font-family: "Fraunces";
+  font-weight: 900;
+  font-size: 28px;
+  color:#333D4B;
+  margin-bottom: 38px;
+  width: 223px;
+  height: 63px;
+}
+
+.deliver__info{
+  font-family: "Barlow";
+  font-weight: 400;
+font-size: 15px;
+line-height: 25px;
+color: #333D4B;
+}
+
+/* ==================footer=============== */
+
+footer{
+  background-color:#2C343E;
+}
+
+.footer{
+  display: flex;
+  align-items: center;
+  padding:47px 85px ;
+}
+
+.footer__left{
+  display: flex;
+  margin-right: auto;
+
+}
+
+.footer__logo{
+  margin-right: 103px;
+}
+
+.footer__item--left{
+  margin-left: 0;
+}
+
+.footer__link{
+  text-decoration: none;
+  color: #83888F;
+}
+
+.footer__link:hover{
+color:#FEFCF7;
+}
+
+.footer__social{
+  display: flex;
+}
+
+.footer__roster{
+  margin-left: 24px;
+}
+
+.footer__rosret--left{
+  margin-left: 0;
+}
+
+.footer__img{
+
+}
+
+
