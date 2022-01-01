@@ -428,10 +428,11 @@ color: #333D4B;
 /* ==================footer=============== */
 
 footer{
-  background-color:#2C343E;
+  margin-bottom: 88px;
 }
 
 .footer{
+  background-color:#2C343E;
   display: flex;
   align-items: center;
   padding:47px 85px ;
@@ -439,6 +440,7 @@ footer{
 
 .footer__left{
   display: flex;
+  align-items: center;
   margin-right: auto;
 
 }
@@ -472,8 +474,5 @@ color:#FEFCF7;
   margin-left: 0;
 }
 
-.footer__img{
-
-}
 
 
